@@ -1,0 +1,39 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.question {
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    border: 1px solid black;
+    color: black;
+}
+
+.checkData .question {
+    width: 99%;
+    border: 3px solid black;
+}

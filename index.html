@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Corsoul</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="question-1 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q1. Who is known as the King of Cricket?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="king" id="rohit">
+                                <label for="rohit">Rohit Sharma</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="king" id="gill">
+                                <label for="gill">Subhnam Gill</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="king" id="ABD">
+                                <label for="ABD">AB De Villiers</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="king" id="kohli">
+                                <label for="kohli">Virat Kohli</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" disabled>Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Virat Kohli</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-2 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q2. Which Batsman has hitted more sixes Ever in International Cricket?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="sixes" id="gayle">
+                                <label for="gayle">Chris Gayle</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="sixes" id="rohit1">
+                                <label for="rohit1">Rohit Sharma</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="sixes" id="yuvraj">
+                                <label for="yuvraj">Yuvraj Singh</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="sixes" id="smith">
+                                <label for="smith">Steve Smith</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Rohit Sharma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-3 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-3/7 bg-slate-300 z-10">
+                        <p>Q3. Who is the highest wicket taker in ICC Men's Crictet World Cup 2023 till now?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="wicket" id="siraj">
+                                <label for="siraj">Mohammad Siraj</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="wicket" id="stark">
+                                <label for="stark">Mitchell Stark</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="wicket" id="boult">
+                                <label for="boult">Trent Boult</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="wicket" id="rabada">
+                                <label for="rabada">Kagiso Rabada</label>
+                            </div>
+                            <div class="option-5">
+                                <input type="radio" name="wicket" id="bumrah">
+                                <label for="bumrah">Jasprit Bumrah</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Jasprit Bumrah</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-4 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-3/7 bg-slate-300 z-10">
+                        <p>Q4. Who was the First Batsman ever to score a century for India in Test Cricket?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="century" id="kapil">
+                                <label for="kapil">Kapil Dev</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="century" id="amarnath">
+                                <label for="amarnath">Lala Amarnath Bharadwaj</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="century" id="sudhakar">
+                                <label for="sudhakar">Sudhakar Rao</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="century" id="ravi">
+                                <label for="ravi">Ravi Shastri</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Lala Amarnath Bharadwaj</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-5 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q5. Who is the top Wicket Taker in the 2011 Cricket World Cup?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="wicket2011" id="rashid">
+                                <label for="rashid">Rashid Khan</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="wicket2011" id="zaheer">
+                                <label for="zaheer">Zaheer Khan</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="wicket2011" id="amir">
+                                <label for="amir">Mohammad Amir</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="wicket2011" id="bhaji">
+                                <label for="bhaji">Harbhajan Singh</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Zaheer Khan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-6 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q6. Which STadium hosted the First International Match in India?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="stadium" id="wankhede">
+                                <label for="wankhede">Wankhede</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="stadium" id="eden">
+                                <label for="eden">Eden Gardens</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="stadium" id="modi">
+                                <label for="modi">Narendra Modi Stadium</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="stadium" id="gymkhana">
+                                <label for="gymkhana">Gymkhana Ground</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: GymKhana Ground</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-7 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-3/7 bg-slate-300 z-10">
+                        <p>Q7. Who was the player of the Tournament when India won the World Cup in 2011?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="player" id="dhoni">
+                                <label for="dhoni">Mahendra Singh Dhoni</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="player" id="virat">
+                                <label for="virat">Virat Kohli</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="player" id="_yuvraj">
+                                <label for="_yuvraj">Yuvraj Singh</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="player" id="gautam">
+                                <label for="gautam">Gautam Gambhir</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: Yuvraj Singh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-8 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-3/7 bg-slate-300 z-10">
+                        <p>Q8. When was Anil Kumbhle awarded as the Top wicket-taker in ICC World Cup?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="top-wicket" id="_1992">
+                                <label for="_1992">1992</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="top-wicket" id="_1996">
+                                <label for="_1996">1996</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="top-wicket" id="_1999">
+                                <label for="_1999">1999</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="top-wicket" id="_2003">
+                                <label for="_2003">2003</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: 1996</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-9 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q9. With which Country did India play its First Test Match?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="country" id="aus">
+                                <label for="aus">Australia</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="country" id="new">
+                                <label for="new">New Zealand</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="country" id="eng">
+                                <label for="eng">England</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="country" id="south">
+                                <label for="south">South Africa</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" class="next btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="next">Next</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: England</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="question-10 w-full h-full bg-black flex items-center justify-center">
+                    <div class="question w-2/4 h-1/4 bg-slate-300 z-10">
+                        <p>Q10. Which country has won the highest T20 World Cup?</p>
+                        <div class="options">
+                            <div class="option-1">
+                                <input type="radio" name="woncountry" id="england">
+                                <label for="england">England</label>
+                            </div>
+                            <div class="option-2">
+                                <input type="radio" name="woncountry" id="africa">
+                                <label for="africa">South Africa</label>
+                            </div>
+                            <div class="option-3">
+                                <input type="radio" name="woncountry" id="australia">
+                                <label for="australia">Australia</label>
+                            </div>
+                            <div class="option-4">
+                                <input type="radio" name="woncountry" id="west">
+                                <label for="west">West Indies</label>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="previous btn btn-primary" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">Previous</button>
+                            <button type="button" id="submit" class="submit btn btn-primary">Submit</button>
+                        </div>
+                        <p class="correct-answer" style="display: none;">Correct Answer: England</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="checkData hidden flex-col">
+        <div class="flex">
+            <div class="correct flex flex-col"></div>
+            <div class="wrong flex flex-col"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
